@@ -4,6 +4,6 @@ cd /d "%~dp0"
 
 cd ../..
 
-uv run tempo_cli build --settings_json .tempo.json
+uv run tempo_cli uproject build --settings_json .tempo.json
 
 exit /b

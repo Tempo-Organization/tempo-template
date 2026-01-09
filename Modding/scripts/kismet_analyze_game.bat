@@ -11,7 +11,7 @@ if exist "%CD%\Modding\output.jmap" (
     set "MAPPINGS_ARG=--mappings "%CD%\Modding\output.jmap""
 )
 
-uv run tempo_cli kismet_analyze_directory ^
+uv run tempo_cli run kismet_analyze_directory ^
     --settings_json .tempo.json ^
     --directory "%CD%\Modding" ^
     %MAPPINGS_ARG% ^

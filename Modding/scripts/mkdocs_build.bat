@@ -9,6 +9,6 @@ set "zip_path=%CD%\Modding\docs\docs.zip"
 
 uv run mkdocs build --site-dir "%site_dir%"
 
-uv run tempo_cli zip --directory %site_dir% --zip %zip_path%
+uv run tempo_cli file_io zip --directory %site_dir% --zip %zip_path%
 
 exit /b
