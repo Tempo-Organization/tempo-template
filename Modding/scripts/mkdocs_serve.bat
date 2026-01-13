@@ -4,6 +4,6 @@ cd /d "%~dp0"
 
 cd ../..
 
-uv run mkdocs serve
+uv run mkdocs serve --livereload
 
 exit /b
